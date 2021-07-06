@@ -2,15 +2,25 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.margin{
+    margin-top: 8%;
+}
 h1{
     font-size: 55px;
+    margin: 0;
+    padding: 0;
 }
 .resize{
     text-align: center;
     color: grey;
+    width: 100%;
+    padding: 5px;
 }
 .orange-color{
     color: rgba(216, 76, 25, 0.945);
+}
+.gray-color{
+    color: rgb(112, 108, 108);
 }
 .flexible-container{
     display: flex;
@@ -32,34 +42,70 @@ h1{
     font-weight: 700;
     border-radius: 25px;
 }
+#welcome-section img{
+    max-width: 70%;
+}
 .top-banner{
     text-align: left;
-    
 }
 .mid-banner{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5px;
-    max-width: 100%;
+    width: 100%;
 }
 .box{
     border-radius: 15px;
-    width: 40%;
+    width: 80%;
+    box-shadow: 10px 10px 40px gray;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 10px;
-    box-shadow: 10px 10px 40px gray;
 }
 #recipie1{
-    border-left: solid;
-    border-image-slice: 2;
+    border-radius: 20px;
+    padding-top: 2%;
+    box-shadow: 10px 10px 30px grey;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
 }
+
 #recipie2{
-    border-left: solid;
-    border-image-slice: 2;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px grey;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 #recipie3{
-    border-left: solid;
-    border-image-slice: 2;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px grey;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 2%;
+}
+#b-box{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+.buttom-part{
+    width: 100%;
+    margin: 0 auto;
+}
+.youtube{
+    width: 30%;
+
+}
+.instagam{
+    width: 30%;
+
+}
+.dribbles{
+    width: 30%;
+
 }

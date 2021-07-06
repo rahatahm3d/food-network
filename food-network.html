@@ -10,14 +10,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .black {
+            background-color: rgba(20, 17, 17, 0.925);
+            height: 200px;
+            width: 100%;
+            color: rgb(252, 252, 252);
+            text-align: center;
+        }
+
+        .white {
+            background-color: white;
+            height: 100px;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
     <section class="top-banner flexible-container">
         <div class="half-width">
-            <h1><span class="orange-color">Skip</span> The Diet,</h1>
-            <h1>Just Eat Healthy</h1>
-            <h1>With Food Network</h1>
+            <div class="margin">
+                <h1><span class="orange-color">Skip</span> The Diet,</h1>
+                <h1>Just Eat Healthy</h1>
+                <h1>With Food Network</h1><br>
+            </div>
             <p>Imagine you don't need a diet because we provide</p>
             <p>healthy and delicious food for you</p>
             <a class="link-button" target="_blank" href="https://www.linkedin.com/in/rahat-ahmed-b5811bb0/">Order
@@ -28,41 +45,79 @@
         </div>
     </section>
     <section class="mid-banner flexible-container">
-        <div class="half-width">
+        <div id="welcome-section" class="half-width">
             <img src="images/female/Person Image.png" alt="">
         </div>
-        <div class="half-width">
-            <h1>About Me</h1>
+        <div class="half-width margin">
+            <h1>About Me</h1><br>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing
                 elit. Condimentum diam orci pretium a pharetra,
                 feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non.
-                Non commodo volutpat, pharetra, vel.</p>
-
+                Non commodo volutpat, pharetra, vel.</p><br>
             <a class="link-button" target="_blank" href="">Contact Me</a>
         </div>
     </section>
     <section>
         <h1 class="resize">My Recipies</h1>
+        <section>
+            <p class="resize">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+                Lorem Ipsum has
+                been the industry's standard dummy text ever since the 1500s.</p>
+        </section>
         <div class="flexible-container">
-            <p class="resize">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-            <p class="resize">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            <div class="flexible-container">
-                <div id="recipie1" class="box">
-                    <h2>Recipie Title</h2>
-                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
-                        nisi lectus at</p>
-                </div>
-                <div id="recipie2" class="box">
-                    <h2>Recipie Title</h2>
-                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
-                        nisi lectus at</p>
-                </div>
-                <div id="recipie3" class="box">
-                    <h2>Recipie Title</h2>
-                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
-                        nisi lectus at</p>
-                </div>
+
+            <section>
+                <div class="flexible-container">
+                    <div id="recipie1" class="box-card">
+                        <img src="images/food/Project Cover.png" alt=""
+                            style="width: 100%; height: 350px; border-radius: 20px;">
+                        <h2>Recipie Title</h2>
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
+                            nisi lectus at</p>
+                    </div>
+                    <div id="recipie2" class="box-card">
+                        <img src="images/food/Project Cover5.png" alt=""
+                            style="width: 100%; height: 350px; border-radius: 20px;">
+                        <h2>Recipie Title</h2>
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
+                            nisi lectus at</p>
+                    </div>
+                    <div id="recipie3" class="box-card">
+                        <img src="images/food/Project Cover8.png" alt=""
+                            style="width: 100%; height: 350px; border-radius: 20px;">
+                        <h2>Recipie Title</h2>
+                        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id
+                            nisi lectus at</p>
+                    </div>
+            </section>
+        </div>
+
+    </section>
+    <section id="buttom-part">
+        <div class="flexible-container box" id="b-box">
+            <div class="youtube">
+                <h1>700k</h1>
+                <p>Youtube Subscribers</p>
             </div>
+            <div class="instagam">
+                <h1>2.4m</h1>
+                <p>Instagam follower</p>
+            </div>
+            <div class="dribbles">
+                <h1>100k</h1>
+                <p>Dribbles Shot Likes</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="black">
+        <h2><span class="orange-color">FOOD</span> <span class="gray-color">NETWORK</span></h2>
+        <p>Eat healthy to live healthy. Live healthy to live happy.</p>
+
+    </section>
+    <section class="white">
+        <h2><span class="orange-color">FOOD</span> <span class="gray-color">NETWORK</span></h2>
+        <p>Eat healthy to live healthy. Live healthy to live happy.</p>
 
     </section>
 </body>
