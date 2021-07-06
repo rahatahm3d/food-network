@@ -3,16 +3,63 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 30px;
+    font-size: 55px;
+}
+.resize{
+    text-align: center;
+    color: grey;
 }
 .orange-color{
     color: rgba(216, 76, 25, 0.945);
 }
+.flexible-container{
+    display: flex;
+    margin-bottom: 135px;
+}
 .half-width{
     width: 50%;
-    padding-left: 4%;
+    padding-left: 5%;
     
 }
 .half-width img{
-    width: 50%;
+    width: 85%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 12px 25px;
+    color: white;
+    font-weight: 700;
+    border-radius: 25px;
+}
+.top-banner{
+    text-align: left;
+    
+}
+.mid-banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    max-width: 100%;
+}
+.box{
+    border-radius: 15px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#recipie1{
+    border-left: solid;
+    border-image-slice: 2;
+}
+#recipie2{
+    border-left: solid;
+    border-image-slice: 2;
+}
+#recipie3{
+    border-left: solid;
+    border-image-slice: 2;
 }
