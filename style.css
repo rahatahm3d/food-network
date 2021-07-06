@@ -42,6 +42,15 @@ h1{
     font-weight: 700;
     border-radius: 25px;
 }
+.link-button2{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(0, 4, 255), rgb(13, 232, 240));
+    padding: 12px 25px;
+    color: white;
+    font-weight: 700;
+    border-radius: 25px;
+    text-align: center;
+}
 #welcome-section img{
     max-width: 70%;
 }
@@ -61,6 +70,10 @@ h1{
     box-shadow: 10px 10px 40px gray;
     margin-left: 5%;
     margin-right: 5%;
+}
+.box1{
+    border-radius: 10px;
+    width: 20%;
 }
 #recipie1{
     border-radius: 20px;
@@ -93,6 +106,11 @@ h1{
     text-align: center;
     margin: 0 auto;
 }
+#b-box1{
+    text-align: center;
+    margin-right: 40%;
+    margin-left: 45%;
+}
 .buttom-part{
     width: 100%;
     margin: 0 auto;
@@ -107,5 +125,4 @@ h1{
 }
 .dribbles{
     width: 30%;
-
 }
